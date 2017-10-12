@@ -1,4 +1,4 @@
-set DATASET_DIR=C:/Projects/Medical_image/Endoscopic/DATA_edit/data1010
+set DATASET_DIR=./DATA/medical
 set TRAIN_DIR=./logs/ssd_300_vgg_medical
 set CHECKPOINT_PATH=./checkpoints/ssd_300_vgg.ckpt
 python train_ssd_network.py ^

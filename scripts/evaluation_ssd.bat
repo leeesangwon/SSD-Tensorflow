@@ -1,4 +1,4 @@
-set DATASET_DIR=C:/Projects/Medical_image/Endoscopic/DATA_edit/data1010
+set DATASET_DIR=./DATA/medical
 set TRAIN_DIR=./logs/ssd_300_vgg_medical
 set EVAL_DIR=%TRAIN_DIR%/eval
 python eval_ssd_network.py ^
