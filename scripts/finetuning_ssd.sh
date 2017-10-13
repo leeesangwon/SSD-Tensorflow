@@ -14,4 +14,5 @@ python train_ssd_network.py \
     --optimizer=adam \
     --learning_rate=0.001 \
     --batch_size=32 \
-    --max_number_of_steps=1000
+    --max_number_of_steps=50000
+    
